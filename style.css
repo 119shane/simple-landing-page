@@ -68,6 +68,10 @@ input {
     margin-bottom: 2.5em;
 }
 
+input [type="text"]:focus {
+    outline: 1px solid black;
+}
+
 button {
     width: 100%;
     background: #5200FF;
